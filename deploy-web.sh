@@ -11,6 +11,7 @@ rsync -av --delete \
   --exclude='vercel.json' \
   --exclude='.vercelignore' \
   --exclude='deploy-web.sh' \
+  --exclude='.htaccess' \
   --exclude='/node_modules' \
   --exclude='package.json' \
   --exclude='package-lock.json' \
